@@ -1,0 +1,90 @@
+@media (max-width: 772px) {
+  .container-name,
+  .nav-img {
+    display: none;
+  }
+  .container-bar {
+    font-size: 1.2rem;
+    gap: 5rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .container-about {
+    font-size: 1rem;
+  }
+  #personal-info,
+  #target {
+    padding: 2rem;
+  }
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+  }
+  .text-info {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .title,
+  .text {
+    font-size: 1rem;
+  }
+  .certificate {
+    width: 100%;
+    gap: 1rem;
+  }
+  .Cert,
+  .Cert1 {
+    display: block;
+  }
+  .cert-text,
+  .cert-text1 {
+    font-size: 1.2rem;
+  }
+  .rows {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .inline {
+    width: 50%;
+    display: inline-block;
+  }
+  table {
+    font-size: 1rem;
+  }
+  #container-footer {
+    height: auto;
+    width: auto;
+  }
+  .certificate {
+    width: 1fr;
+  }
+  .border-text {
+    font-size: 0.5rem;
+  }
+  .flex .border-text {
+    font-size: 1rem;
+  }
+  .text2 {
+    font-size: 1rem;
+  }
+  /* charter*/
+  .grid-4 {
+    display: block;
+  }
+  .title-pj {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .grid-coluns4 {
+    margin-top: -1rem;
+  }
+  .grid-coluns3 {
+    height: 100%;
+  }
+  ul .flex-1 {
+    display: block;
+  }
+}

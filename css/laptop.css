@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+.container-about.text-16px {
+}
+html {
+  font-size: 62.5%;
+}
+
+.text-16px {
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+  height: 100%;
+}
+
+section > .container {
+  width: 117rem;
+  margin: auto;
+  display: block;
+  height: auto;
+  padding: 3rem 5rem;
+}
+
+header {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/banner.jpg");
+  background-position: top;
+  background-size: cover;
+}
+#banner {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+/* navbar */
+.nav-img {
+  position: absolute;
+  border: 0.5rem solid rgb(223, 219, 219);
+  border-radius: 50%;
+  width: auto;
+  height: 20rem;
+  top: 50%;
+  left: 46.5%;
+  transform: translate(0, -50%);
+}
+
+.a1 {
+  font-size: 2.8rem;
+}
+.a2 {
+  font-size: 1.2rem;
+}
+
+#nav-bar {
+  text-align: center;
+}
+.container-bar {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.4rem;
+  gap: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+.container-bar a {
+  color: black;
+  text-decoration: none;
+  border-left: 0.1rem solid black;
+}
+/* container-about */
+.container-name {
+  padding: 1rem;
+}
+.container-about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#personal-info {
+  background-color: #eeeeee;
+}
+#target {
+  background-color: rgb(245, 245, 245);
+}
+
+#personal-info,
+#target {
+  text-align: left;
+  padding: 9rem;
+}
+
+.title-1 {
+  margin-bottom: 3rem;
+}
+.mt-40 info {
+  list-style-type: none;
+}
+/* job info */
+#job-info .container {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  margin-top: 3rem;
+  column-gap: 1rem;
+}
+
+.container div {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 5rem 1fr;
+  border: 0.1rem solid rgba(0, 0, 0, 0.8);
+}
+.container div h2 {
+  padding: 2rem;
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: -1;
+}
+
+.container ul {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: -1;
+}
+
+.text-title {
+  padding: 2rem;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.title {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.text {
+  margin-left: 3rem;
+  text-align: left;
+}
+.text1 {
+  margin-left: 2rem;
+  text-align: left;
+}
+.icon-green {
+  font-size: 1.8rem;
+  text-align: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 0.2rem solid rgb(28, 225, 247);
+  border-radius: 50%;
+  margin-left: 1.2rem;
+}
+.icon-green i {
+  margin-top: 1.4rem;
+}
+
+.text-ctn {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+#s0 {
+  background: #199cdb;
+  display: inline-block;
+  height: 0.2rem;
+  margin-right: 1rem;
+  width: 4.5rem;
+}
+#s1 {
+  background: #999999;
+  display: inline-block;
+  height: 0.2rem;
+  margin-right: 1rem;
+  width: 4.5rem;
+}
+h3 p:first-child {
+  margin-bottom: 2rem;
+}
+/* certificate */
+.certificate {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  row-gap: 4rem;
+}
+.Cert,
+.Cert1 {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.border-bottom1 {
+  margin-bottom: 1rem;
+  border-bottom: 0.2rem solid #d6c08d;
+}
+.Cert1 img {
+  border-left: 0.2rem solid #d6c08d;
+}
+#cert-text1 {
+  font-size: 1.4rem;
+  color: #999999;
+  margin-top: 2rem;
+}
+
+.Cert1-1 {
+  border-left: 0.2rem solid #d6c08d;
+  padding-bottom: 0.2rem;
+}
+ul,
+li {
+  list-style-type: none;
+}
+#container-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 3rem;
+}
+/* project */
+.rows {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  /* margin: 1rem; */
+}
+.img-responsive {
+  width: 100%;
+  justify-content: center;
+}
+
+table {
+  border: 1px solid #000;
+  height: 29rem;
+}
+table td,
+table th {
+  border-bottom: 1px solid black;
+}
+.text2 {
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+}
+.col-2 {
+  width: 20rem;
+  margin: 2rem;
+}
+.title-project {
+  font-size: 1.8rem;
+  height: 3.6rem;
+}
+
+.border-text {
+  border-radius: 1.2rem;
+  background-color: rgb(94, 204, 255);
+  color: #fff;
+  padding: 0.5rem;
+}
+.color-icon {
+  color: #008fd2;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 3.6rem;
+}
+.title-table {
+  text-align: left;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+}
+/* project charter */
+.project-ct {
+  font-size: 2rem;
+  margin-right: 1rem;
+  border: 2rem solid blue;
+  background-color: blue;
+}
+
+.bg-aqua {
+  background-color: rgb(223, 248, 248);
+}
+.grid-4 {
+  display: grid;
+  grid-template-rows: repeat(2, 50vh);
+  grid-template-columns: 50% 25% 25%;
+  gap: 0.5rem;
+}
+.grid-coluns2 {
+  grid-column: 1/2;
+  grid-row: 2/-1;
+}
+.grid-coluns3 {
+  grid-column: 2/3;
+}
+.grid-coluns4 {
+  grid-column: 3/-1;
+  grid-row: 1/-1;
+}
+.border-bt {
+  border-bottom: 0.1rem solid black;
+  margin: 0 2rem 0 2rem;
+}
+.mg-text {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.flex-pj {
+  gap: 1rem;
+  display: flex;
+}
+.flex-pj span {
+  align-items: center;
+  justify-content: center;
+}
+.title-pj {
+  color: rgb(48, 67, 244);
+  margin: 0 2rem 0 2rem;
+}
+.bold {
+  font-weight: 500;
+}
+.border-bt p {
+  font-size: 1.6rem;
+}
+.flex-1 {
+  display: inline-flex;
+  gap: 2.5rem;
+}
+.flex-1 svg {
+  margin: auto;
+  width: 10rem;
+  height: 10rem;
+}
+.flex-1 .btn--1 {
+  width: 3rem;
+  height: 3rem;
+  margin: auto;
+}
+.border-text1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(131, 78, 255);
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-weight: 600;
+}
+footer a {
+  background-color: rgb(243, 90, 90);
+  position: static;
+}
+footer a:link,
+footer a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:link:active,
+footer a:visited:active {
+  color: white;
+}
