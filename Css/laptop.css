@@ -34,7 +34,7 @@ header {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/banner.jpg");
+    url("../images/banner.jpg");
   background-position: top;
   background-size: cover;
 }
